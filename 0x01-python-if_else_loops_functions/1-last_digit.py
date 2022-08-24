@@ -7,7 +7,7 @@ else:
     tmp = number * -1
     digit = (tmp % 10) * -1
 if digit > 5:
-    print('Last digit of', number, 'is', digit, ' and is greator than 5')
+    print('Last digit of', number, 'is', digit, 'and is greator than 5')
 elif digit == 0:
     print('Last digit of', number, 'is', digit, 'and is 0')
 else:
